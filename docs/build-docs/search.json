@@ -158,35 +158,35 @@
     "href": "tools/containers.html",
     "title": "Containerization",
     "section": "",
-    "text": "Package and environment management is necessary but insufficient to ensure reproducible projects. Environments run on operating systems, which run on real or virtual machines. Containerization is a technology developed to support reproducibility and virtualization (at scale) of operating systems. The leading tools for containerization of Python (or, really, any development) projects are Docker and Kubernetes."
+    "text": "Package and environment management is necessary, but is insufficient to ensure reproducible projects. Environments run on operating systems, which run on real or virtual machines. Containerization is a technology developed to support reproducibility and virtualization (at scale) of operating systems.\nWhen and why to use a container: All containerization tools make sure that code will run in a reproducable manner across different operating systems (Windows, Linux, Cloud, etc.). Use of containers is beneficial for collaborative development and deployment for software applications and complex tools like machine learning models. Containers also help make effective use of shared compute resources, like virtual machines, since multiple containers can run on the same infrastructure. Use of containers in this setup helps to keep applications isolated, which improves maintainability of applications and provides the ability to control access to sensitive applications and data.\nWhat do containers do Containers include the information needed to enable code sharing and application deployment. Unlike a code repository, which contains information about environment requirements which enables a user to retrieve and build the specified environment, a container stores all of the code, packages, and dependencies needed to run the code regardless of operating system and settings.\nThe leading tools for containerization of Python (or, really, any development) projects are Docker and Kubernetes. These and other popular tools are described below."
   },
   {
     "objectID": "tools/containers.html#docker",
     "href": "tools/containers.html#docker",
     "title": "Containerization",
     "section": "Docker",
-    "text": "Docker\nis…"
-  },
-  {
-    "objectID": "tools/containers.html#kubernetes",
-    "href": "tools/containers.html#kubernetes",
-    "title": "Containerization",
-    "section": "Kubernetes",
-    "text": "Kubernetes\nis…"
+    "text": "Docker\nDocker is a platform that helps developers to build, ship, and run containers. “A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.”"
   },
   {
     "objectID": "tools/containers.html#azure-container-instances",
     "href": "tools/containers.html#azure-container-instances",
     "title": "Containerization",
     "section": "Azure Container Instances",
-    "text": "Azure Container Instances\nis…"
+    "text": "Azure Container Instances\nAzure Container Instances is a tool that allows a developer to run a container in Azure (a cloud platform), without having to manage any virtual machines and without having to adopt a higher-level service.\nOften, this tool is paired with the use of Azure Container Registry, which supports versioning and enables rollbacks of deployments."
+  },
+  {
+    "objectID": "tools/containers.html#kubernetes",
+    "href": "tools/containers.html#kubernetes",
+    "title": "Containerization",
+    "section": "Kubernetes",
+    "text": "Kubernetes\nKubernetes is a container orchestration system that automates the deployment, scaling, and management of containerized applications."
   },
   {
     "objectID": "tools/containers.html#helm",
     "href": "tools/containers.html#helm",
     "title": "Containerization",
     "section": "Helm",
-    "text": "Helm\nis…"
+    "text": "Helm\nHelm is a package manager for Kubernetes, simplifying the deployment and management of applications on Kubernetes clusters."
   },
   {
     "objectID": "index.html#create-a-new-repo-from-this-template",
